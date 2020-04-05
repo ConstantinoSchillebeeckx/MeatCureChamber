@@ -12,7 +12,7 @@ Some quick code put together to log the temp & humidity using:
 3. Install the libraries [MQTT](https://github.com/adafruit/Adafruit_MQTT_Library) and [Si7021](https://github.com/adafruit/Adafruit_Si7021)
 4. Put together a dashboard at https://io.adafruit.com; use [this](https://learn.adafruit.com/adafruit-io-basics-dashboards) guide to help you out.
 5. Modify [the code](main.ino) by updating any of the lines with the comment `// EDIT THIS FOR YOUR USE`
-6. Attach the sensor to your board; see [guide](https://learn.adafruit.com/adafruit-si7021-temperature-plus-humidity-sensor/arduino-code). Also see [here](https://learn.adafruit.com/assets/46249) for the pinout of the Feather.
+6. Attach the sensor to your board; see [guide](https://learn.adafruit.com/adafruit-si7021-temperature-plus-humidity-sensor/arduino-code). Also see [here](https://learn.adafruit.com/assets/46249) for the pinout of the Feather. I've wired it up like this ![wiring](wiring.png "wiring")
 7. Upload the code and check out the dashboard or even the Serial Monitor if hooked up to your computer.
 
 NOTES:
