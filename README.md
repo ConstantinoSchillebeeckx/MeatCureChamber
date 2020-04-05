@@ -15,6 +15,6 @@ Some quick code put together to log the temp & humidity using:
 6. Attach the sensor to your board; see [guide](https://learn.adafruit.com/adafruit-si7021-temperature-plus-humidity-sensor/arduino-code). Also see [here](https://learn.adafruit.com/assets/46249) for the pinout of the Feather. I've wired it up like this ![wiring](wiring.png "wiring")
 7. Upload the code and check out the dashboard or even the Serial Monitor if hooked up to your computer.
 
-NOTES:
+## NOTEs
 
-- code is set up to send data every minute to the dashboard
+- the code is setup to send data every minute to the dashboard; at the time of writing, the **free** account allows you 30 data points per minutes which will be kept for 30 days
